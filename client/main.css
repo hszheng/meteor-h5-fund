@@ -1,0 +1,1063 @@
+/**
+* 通用css文件，用于保存全局css
+*
+* @author  Vincent Zheng
+* @version 1.0
+* @since   2015-09-17
+* @review
+*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.pageContain {
+    padding-top: 0px !important;
+    overflow: hidden;
+}
+
+input {
+    min-height: 3em !important;
+    padding-left: 15px !important;
+}
+
+
+/* all */
+
+::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+::-moz-placeholder {
+    color: 12px;
+}
+
+
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+    color: 12px;
+}
+
+
+/* ie */
+
+input:-moz-placeholder {
+    color: 12px;
+}
+
+button {
+    min-height: 3em !important;
+}
+
+.ui-header {
+    height: 3em;
+    line-height: 0.5em;
+}
+
+.ui-header .ui-icon-carat-l {
+    margin-top: .3em;
+}
+
+.ui-header .ui-icon-carat-l:after {
+    background-size: 1.5em;
+}
+
+.ui-header .ui-title {
+    font-size: 1.5em;
+}
+
+.ui-header .ui-icon-carat-l {
+    background-color: transparent ! important;
+    border: transparent ! important;
+}
+
+#popupTip-screen {
+    height: 100% !important;
+}
+
+.ui-mobile-viewport.ui-overlay-a {
+    min-height: 660px;
+}
+
+
+/*////////////////////////////////*/
+
+.edge {
+    padding-top: 0px !important;
+    display: none;
+}
+
+
+/*欢迎登录*/
+
+.num-choose {
+    color: red;
+    font-size: 15px;
+}
+
+.ui-input-text .register-tel {
+    background-image: url(../images/tel.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+}
+
+.form-frame #captchaGrid.ui-grid-a .ui-block-a {
+    width: 60%;
+}
+
+.form-frame #captchaGrid.ui-grid-a .ui-block-b {
+    margin-left: 2%;
+    width: 37%;
+}
+
+.form-frame #captchaGrid.ui-grid-a .ui-body {
+    padding: 0;
+}
+
+.form-frame .captcha-image {
+    margin: .5em 0;
+    height: 3em;
+}
+
+.register-pass {
+    background-image: url(../images/lock.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+}
+
+#register-but {
+    margin-top: 15px !important;
+}
+
+.login-banner{
+    width:100%;
+}
+#form-control{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#forgetPassword{
+    float:right;
+}
+.login-reset{
+ font-size: 14px;   
+}
+
+.clicktoregister{
+    font-size: 13px;
+    color: grey;
+}
+#withdrawl-btn,
+#submit-verify,
+#newInvest,
+#register-but,
+#login-btn{
+    font-weight: 100 !important;
+}
+/*  我的账户*/
+
+#text-1 {
+    background-image: url(../images/lock.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+}
+
+#tel-2 {
+    background-image: url(../images/tel.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+}
+
+
+.login-bottom {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.get-date {
+    font-size: 14px;
+}
+
+.login-bottom-item {
+    margin: 10px;
+    margin-top: 29px;
+    overflow: hidden;
+}
+
+.data-sta {
+    background-image: url(../images/statistics.png);
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    height: 30px;
+   background-position-y: -3px;
+}
+
+.crowd-peo {
+    background-image: url(../images/crowd.png);
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    height: 30px;
+    background-position-y: -3px;
+}
+
+.invest-mon {
+    background-image: url(../images/dollar.png);
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    height: 30px;
+    background-position-y: -4px;
+}
+
+.get-profit {
+    background-image: url(../images/pig.png);
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    height: 30px;
+    background-position-y: -3px;
+}
+
+
+/*第3页*/
+
+.gains {
+    width: 100%;
+   /* height: 7em;
+    background-image: url(../images/yesterdays-gains.png);
+    height: 200px;*/
+    height: 111px;
+    background-size: 100%;
+    text-align: center;
+}
+
+.assets {
+    width: 100%;
+    height: 2.5em;
+   /* background-image: url(../images/total-assets.png);*/
+    background-color: white;
+    background-size: 100%;
+}
+
+.accounts .earnings {
+    float: right;
+}
+
+.account-information li {
+    border-bottom: 1px solid rgb(215, 215, 215) !important;
+}
+
+.account-information li a {
+    background-color: white !important;
+    border: 0px !important;
+    color: black !important;
+}
+
+#list-profit li {
+    border-radius: 0px;
+}
+
+.accounts .yesterday {
+    /*margin-top: 20%;*/
+    margin-top: 5%;
+    display: inline-block;
+    font-size: 39px;
+}
+
+#list-profit li a:after{
+    background-size: 11px;
+}
+
+.accounts .total {
+    color: #d83532;
+    display: inline-block;
+    margin-top: 13px;
+    float: right;
+    margin-right: 30px;
+}
+
+#account-but .ui-block-b a,
+#account-but .ui-block-a a {
+ /*   background-image: url(../images/but-bg.png)!important;*/
+    border: 0px;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(90, 90, 90);
+}
+
+.account-information .ui-icon-carat-r:after {
+    background-image: url(../images/arrow-right.png);
+}
+
+.bottom-navigation .ui-icon-grid:after {
+    background-image: url(../images/myaccount.png);
+    background-size: 100%;
+}
+
+.bottom-navigation .ui-icon-star:after {
+    background-image: url(../images/mydollar.png);
+    background-size: 100%;
+}
+
+.bottom-navigation .ui-icon-gear:after {
+    background-image: url(../images/getmore.png);
+    background-size: 100%;
+}
+
+.bottom-navigation a {
+    background-color: white !important;
+    border: 0 !important;
+    text-shadow: 0 0 0 !important;
+}
+
+
+/*第4页*/
+
+.all-earnings .accumulated-earnings {
+    height: 50px;
+}
+
+.current-earnings {
+    float: left;
+}
+
+.money {
+    display: inline-block;
+    float: right;
+    line-height: 30px;
+    font-size: 16px;
+    color: red;
+}
+
+.ui-listview1 li {
+    height: 58px !important;
+}
+
+
+/*第5页*/
+
+#tabs {
+    padding: 0;
+}
+
+#tabs .ui-navbar .ui-tabs-nav li:first-child a {
+    border-left: 0;
+}
+
+#tabs .ui-navbar .ui-tabs-nav li a {
+    border-top: 0;
+    border-color: #CCC;
+    border-bottom-width: 5px;
+    background-color: #FFF;
+    color: #999;
+    font-size: 1em;
+    text-shadow: none;
+}
+
+#tabs .ui-navbar .ui-tabs-nav .ui-tabs-active a {
+    border-bottom-color: #C94B3F;
+    color: #C94B3F;
+    text-shadow: none;
+}
+
+.investment {
+    height: 50px;
+}
+
+.my-investment {
+    float: left;
+}
+
+
+/*第6页*/
+
+.more,
+.icon7,
+.icon8,
+.icon9,
+.icon10,
+#accountListview.ui-listview .ui-btn {
+    background-color: #FFF ! important;
+    border-color: #D7D7D7 ! important;
+    color: #666 ! important;
+}
+
+#accountListview.ui-listview .ui-icon-carat-r:after {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0Q4RkE5MkNBNjBFNTExOEM2NUM4NDA1RkY2OUYxMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBMERGNkE5NDVBMUExMUU1QUEwNjhEMjE0NDI5NEQ3OCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMERGNkE5MzVBMUExMUU1QUEwNjhEMjE0NDI5NEQ3OCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjE3RTYxRkM3Q0I2MEU1MTE4OUZCQzA3RjNEMUMzMEM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3RDhGQTkyQ0E2MEU1MTE4QzY1Qzg0MDVGRjY5RjEzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+oCWT2wAAAVBJREFUeNq01jEoRVEcx/F7EfVSpleSTG8z6S7Khl4sTLIwiJGBXrKIbCiDMkhKbBbJgsLGdE1GE4PBpFCUru+/fq/O4tXz/u9fn979nzf8bufcc8+NsyyL6llNf/2RpukqPwvYxSIq3kmSJNUFUEtoQQmNCqu6Gir8dxJcz2PNO2Aa10G/rKlyC/jECO6CsXXMegVYfWAY98HYNqa8AqzeMIQH9TH2MO4VYPWKIh7V21N1qCl0CbB6wQCe1TfjGINeAVZP6FdYpH1yij6vgEjTVNS0WeVw5BlQXujIc5HDKuAS+WC/THgFdOEG7eq/9CTdegR04Aqd6r8xprGapyivaSmo/8EkzjzWoA0X6FZv58KM9kDNi9yKc/QEY3M48HiKctpEvcGYva53vN6m+9q15bIDZ9PzPBgNrrew4n2ibeBdd13671dFXO/Pll8BBgCQVT4PMZLqjgAAAABJRU5ErkJggg==');
+    background-size: 13px;
+}
+
+.drop-out1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.drop-out2 {
+    top: 40px;
+    left: 16px;
+}
+
+.information1 {
+    float: left;
+    font-size: 15px;
+}
+
+.information2 {
+    float: right;
+    font-size: 15px;
+   /* color: #b3b3b3;*/
+}
+
+.icon1 {
+    background-image: url(../images/user.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 2px;
+}
+
+.icon2 {
+    background-image: url(../images/bank.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: -2px;
+}
+
+.icon3 {
+    background-image: url(../images/tel.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 10px;
+}
+
+.icon4 {
+    background-image: url(../images/mail.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: -2px;
+}
+
+.icon5,
+.icon6 {
+    background-image: url(../images/lock.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px;
+}
+
+
+/*第7页*/
+
+.real-card {
+    background-image: url(../images/id-card.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+}
+
+.real-name {
+    background-image: url(../images/card-holder.png) !important;
+    background-repeat: no-repeat !important;
+    padding-left: 40px !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+}
+
+.remind2 {
+    color: grey !important;
+    font-size: 13px;
+}
+
+
+/*第8页*/
+
+.remind {
+    width: 100%;
+}
+
+.card1 {
+    z-index: 9999999;
+}
+
+.card2 {
+    z-index: 9999999;
+}
+
+.bank-card2 {
+    width: 60%;
+    position: absolute;
+    z-index: 99999999;
+    border: 0px;
+    right: 0px;
+    top: 155px;
+}
+
+.bank-card1 {
+    width: 60%;
+    position: absolute;
+    z-index: 99999999;
+    right: 0px;
+    top: 111px;
+    border: 0px;
+}
+
+.bank-card0 {
+    width: 60%;
+    height: 40px;
+    position: absolute;
+    z-index: 99999999;
+    right: 0px;
+    top: 74px;
+    border: 0px;
+}
+
+.bank-card0 .ui-select {
+    margin: 0;
+}
+
+.bank-card0 .ui-select .ui-btn {
+    background-color: white !important;
+    color: black !important;
+    border: 0;
+    text-align: right;
+}
+
+.bank-card0 .ui-btn.ui-icon-carat-d.ui-btn-icon-right {
+    padding-right: 32px;
+}
+
+.bank-card2 .ui-body-inherit,
+.bank-card1 .ui-body-inherit,
+.bank-card0 .ui-body-inherit {
+    border: 0px;
+    height: 33px;
+    margin: 0px;
+    outline: 0px;
+    border-radius: 0px;
+}
+
+.bank-card2 .enter,
+.bank-card1 .enter,
+.bank-card0 .enter {
+    text-align: right;
+}
+
+.drop-out1 .drop-out3 {
+    left: 16px;
+}
+
+.remdnder {
+    width: 100%;
+    height: 100%;
+}
+
+.icon7,
+.icon8,
+.icon9 {
+    background-size: 30px;
+    background-position-x: 10px;
+    background-position-y: 10px !important;
+    background-repeat: no-repeat !important;
+    padding-left: 41px !important;
+}
+
+.more,
+.icon7,
+.icon8,
+.icon9,
+.icon10,
+#accountListview.ui-listview .ui-btn {
+    background-color: #FFF ! important;
+    border-color: #D7D7D7 ! important;
+    color: #666 ! important;
+}
+
+.icon7 {
+    background-image: url(../images/card-bank.png) !important;
+}
+
+.icon8 {
+    background-image: url(../images/bank.png) !important;
+}
+
+.icon9 {
+    background-image: url(../images/card-city.png) !important;
+}
+
+#trade-pass input {
+    background-image: url(../images/lock.png);
+    background-repeat: no-repeat;
+    padding-left: 35px !important;
+    background-position: 7px 9px;
+}
+
+.withdrawlSum {
+    background-image: url(/images/mydollar.png)!important;
+    background-size: 28px !important;
+    background-position: 7px 13px !important;
+}
+
+.account-information li a:after{
+    background-size: 41px !important;
+}
+.profit-head{
+  background-image:url(/images/gainprofit.png);
+  background-repeat:no-repeat;
+  padding-left:78px;
+  height: 70px;
+  position: relative;
+  background-position-x: -10px;
+}
+/*我的邀请*/
+
+.full-name1 {
+    float: left;
+    color: #8c8c8c;
+}
+
+.registered1 {
+    margin-left: 30%;
+    color: red;
+}
+
+.have-invested1 {
+    float: right;
+    color: red;
+}
+
+.registered2 {
+    margin-left: 30%;
+    color: #d1d1d1;
+}
+
+.have-invested2 {
+    float: right;
+    color: #d1d1d1;
+}
+
+.reminder {
+    width: 100%;
+}
+
+.user-details {
+    background-color: #949494 !important;
+    color: #ffffff !important;
+    background-repeat: no-repeat !important;
+    background-position: 110% !important;
+}
+
+.user-details .user{
+    font-weight: 100;
+}
+/*第11页*/
+
+#navbar-intro .ui-icon-grid:after {
+    background-image: url(../images/high-profit.png);
+    background-size: 100%;
+}
+
+#navbar-intro .ui-icon-star:after {
+    background-image: url(../images/withdraw.png);
+    background-size: 100%;
+}
+
+#navbar-intro .ui-icon-gear:after {
+    background-image: url(../images/invest.png);
+    background-size: 100%;
+}
+
+#navbar-intro .ui-icon-arrow-l:after {
+    background-image: url(../images/gurantee.png);
+    background-size: 100%;
+}
+
+#navbar-intro li a {
+    background-color: white !important;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px;
+    border-color: rgb(221, 221, 221) !important;
+    color: black;
+}
+
+
+/*第12页*/
+
+.ui-grid-d#ui-block-reset .ui-block-b {
+    width: 16.5%;
+}
+
+#ui-block-keyboard {
+    width: 99%;
+}
+
+.register-form,
+.form-frame {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ui-grid-b#ui-block-keyboard .ui-block-b .ui-bar-a,
+.ui-grid-d#ui-block-reset .ui-block-b .ui-bar-a {
+    background-color: white !important;
+    color: black;
+    text-align: center;
+    line-height: 55px;
+    border-color: rgb(221, 221, 221);
+}
+
+#ui-block-reset .ui-bar.ui-bar-a {
+    padding: 0px;
+}
+
+#ui-block-reset .ui-block-b input {
+    width: 100%;
+    height: 57px;
+    border: 0px;
+    outline: 0px;
+    padding: 0px !important;
+}
+
+#ui-block-reset .ui-input-text {
+    margin: 0px;
+}
+
+#ui-block-keyboard,
+#ui-block-reset {
+    padding-bottom: 15px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ui-grid-b#ui-block-keyboard #left-bottom {
+    background-color: rgb(221, 221, 221) !important;
+}
+
+.ui-grid-b#ui-block-keyboard #right-bottom {
+    background-color: rgb(221, 221, 221) !important;
+    height: 60px;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#ui-grid-tip .ui-block-a a {
+    width: 89%;
+    height: 3em;
+    background-color: white;
+    border: 0;
+    color: black;
+    width: 97%;
+}
+
+#ui-grid-tip .ui-block-a a:after {
+    background-color: rgb(221, 221, 221);
+}
+
+#ui-grid-tip {
+    height: 53px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    margin-bottom: 18px;
+}
+
+.keyboard-containner {
+    background: white;
+    border-radius: 10px;
+}
+
+.form-frame .a-link {
+    color: #1A71D0;
+}
+
+.form-frame .a-link:link{
+    color: red;
+}
+.login-reset {
+
+}
+/*第13页*/
+
+.bottom-navigation {
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+
+/*常见问题页面*/
+
+.font-spacing {
+    padding-bottom: 15px;
+}
+
+
+/* 邮箱 */
+
+.mailbox {
+    background-repeat: no-repeat !important;
+    background-position: 9px !important;
+    background-size: 25px !important;
+    padding-left: 33px !important;
+}
+
+
+/*注册协议*/
+
+.sequence1 {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.sequence2 {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.sequence3 {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+}
+
+
+/*投资协议*/
+
+.investmentagreement {
+    text-align: center;
+}
+
+
+/*验证码*/
+
+#code {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(184, 177, 177);
+    margin: 9px 0px 0px 0px;
+    border-radius: 4px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    border: 0;
+    letter-spacing: 2px;
+    color: blue;
+}
+
+
+/*年利率*/
+
+.circle-container {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -60px;
+}
+
+.aInterest {
+    position: absolute;
+    top: 38px;
+    left: 29px;
+    font-size: 37px;
+    z-index: 9999999;
+}
+
+.asymbol {
+    position: absolute;
+    z-index: 9999;
+    top: 61px;
+    left: 104px;
+    font-size: 20px;
+}
+
+.arate {
+    position: absolute;
+    z-index: 9999;
+    top: 89px;
+    left: 50%;
+    margin-left: -38px;
+    text-align: center;
+}
+/*
+.circle-rotate-left {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 8px;
+    overflow: hidden;
+    transform: rotateZ(0deg);
+    transform-origin: 68.6px 75px;
+}
+
+.rotate-left {
+    width: 134px;
+    height: 134px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 6px solid #d94231;
+    border-radius: 74px;
+}*/
+.circle-rotate-left {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    z-index: 99;
+    top: 3px;
+    left: 8px;
+    overflow: hidden;
+    -webkit-transform: rotateZ(0deg);
+    -webkit-transform-origin: 69px 70px;
+}
+
+.rotate-left {
+    width: 134px;
+    height: 136px;
+    position: absolute;
+    left: 2px;
+    top: 5.5px;
+    border: 6px solid #d94231;
+    border-radius: 74px;
+}
+
+.circle-rotate-right {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 72px;
+    overflow: hidden;
+    display: none;
+    transform: rotateZ(0deg);
+    transform-origin: 5px 75px;
+}
+
+.rotate-right {
+    width: 134px;
+    height: 134px;
+    position: absolute;
+    top: 0px;
+    left: -62px;
+    border: 6px solid #d94231;
+    border-radius: 74px;
+}
+
+.lilvcircle {
+    background-image: url(/images/lilvcircle.png);
+    width: 150px;
+    height: 150px;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.circle-wrap {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    overflow: hidden;
+}
+
+.lilvcircle1 {
+    background-image: url(/images/lilvcircle.png);
+    width: 150px;
+    height: 150px;
+    z-index: 99;
+    margin-left: -75px;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.circle-wrap1 {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    z-index: 99;
+    left: 75px;
+    overflow: hidden;
+}
+/*交易记录导航条*/
+.navbar .all-record,
+.navbar .invest-record,
+.navbar .withdrawl-record{
+    display: inline-block;
+    width: 32.5% !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    font-weight: 100;
+}
+
+.fontstyle{
+  color: grey !important;
+  font-weight: 100 !important;
+}
+.btn-radius{
+  border-radius: 10px;
+}
+.bank-card0 .ui-select{
+  margin-top: -10px;
+}
+.btn-bg-style{
+    background-color: #f05237 !important;
+    font-weight: 100 !important;
+    text-shadow: 0 0 0 #f05237 !important;
+}
+
+.tabstyle{
+    font-size: 15px;
+    border-color: #f05237 !important;
+
+}
+/*活期盈介绍*/
+.side-content{
+    text-align: center;
+    background-color: #E8E6E6;
+    width: 23%;
+    vertical-align: middle;
+    color: grey;
+    font-size: 15px;
+    font-weight: 100;
+}
+.product-content{
+    color: grey;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+/*忘记交易密码*/
+.resetTransPass{
+    font-size: 13px;
+    display: block;
+    float: right;
+    margin-top: 15px;
+}
+/*绑定账号*/
+.bindAccount .forgetPassword{
+  display:block;
+  margin-top:20px;
+}

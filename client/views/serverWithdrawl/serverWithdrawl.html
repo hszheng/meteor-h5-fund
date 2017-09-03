@@ -1,0 +1,44 @@
+<template name="serverWithdrawl">
+    {{> serverheader}} {{> serversidebar}}
+    <!--  
+	赎回人，
+	金额,
+	银行卡号，
+	开户行，
+	开户城市，
+	联系电话，
+	时间
+-->
+    <div class="table-caption">用户赎回记录</div>
+    <div class="table-responsive table-align">
+        <table class="table table-bordered table-condensed">
+            <tbody>
+                <tr>
+                    <td>#</td>
+                    <td>赎回人</td>
+                    <td>金额</td>
+                    <td>银行卡号</td>
+                    <td>开户行</td>
+                    <td>开户城市</td>
+                    <td>联系电话</td>
+                    <td>时间</td>
+                </tr>
+                {{#each records}}
+                <tr>
+                    <td name="num">{{num}}</td>
+                    <td name="name">{{name}}</td>
+                    <td name="sum">{{sum}}</td>
+                    <td name="bankCard">{{bankCard}}</td>
+                    <td name="bankName">{{bankName}}</td>
+                    <td name="bankCity">{{bankCity}}</td>
+                    <td name="phone">{{phone}}</td>
+                    <td name="timestamp">{{timestamp}}</td>
+                    <td name="recordId" class="hidden">{{recordId}}</td>
+                    <td name="userId" class="hidden">{{userId}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <button type="button" class="btn btn-default withdrwal-btn">确认赎回</button>
+    </div>
+</template>

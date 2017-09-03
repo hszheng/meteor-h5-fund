@@ -1,0 +1,20 @@
+.table-align{
+	text-align: center;
+	width: 825px;
+	margin: 0 auto;
+}
+
+.table-caption{
+	width: 200px;
+	margin: 20px auto;
+}
+
+.changebgColor{
+	background-color:grey;
+}
+.hidden{
+	display: none;
+}
+.table-responsive .withdrwal-btn{
+	float: right;
+}

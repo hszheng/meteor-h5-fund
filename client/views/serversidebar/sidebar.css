@@ -1,0 +1,25 @@
+#sysSidebarContainer {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999999;
+    width: 200px;
+    height: 100%;
+    transition: 1s;
+}
+
+#sysSidebar {
+    width: 100%;
+    height: 100%;
+}
+
+#sysSidebarClose {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.sidebar-closed {
+    left: -200px ! important;
+}

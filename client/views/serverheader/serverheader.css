@@ -1,0 +1,18 @@
+#webserverHeader {
+	position: relative;
+    margin: 0 auto;
+    display: block;
+    height: 90px;
+    background-color: rgb(239, 249, 228);
+}
+
+#webserverHeader .login-buttons {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 100
+}
+
+#webserverHeader .title {
+    text-align: center;
+}
