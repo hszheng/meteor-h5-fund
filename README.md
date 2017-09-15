@@ -1,12 +1,13 @@
 # jQuery Mobile+blaze+meteor开发基于微信的H5小游戏
 # 描述
-基于微信的理财产品。
+> 基于微信的理财产品。
 ## 主要技术栈：
 - jQuery Mobile
 - blaze
 - jQuery
 - nodejs
 - meteor
+
 # 如何运行
 ## 下载项目
     git clone https://github.com/hszheng/runningTurkey.git
