@@ -8,12 +8,12 @@
 - nodejs
 - meteor
 
-# 如何运行
+# 如何运行
 ## 下载项目
     git clone https://github.com/hszheng/runningTurkey.git
 ## 安装node环境
     curl https://install.meteor.com/ | sh
-## 初始化项目
+## 初始化项目
     meteor npm install
 ## 启动
     meteor --port 3006
